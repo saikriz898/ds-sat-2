@@ -1,0 +1,8 @@
+Model,CV_R2_Mean,CV_R2_Std,Train_R2,Test_R2,Train_MAE_min,Test_MAE_min,Train_RMSE_min,Test_RMSE_min,Test_MAPE_pct
+Linear Regression (OLS),0.7494,0.0137,0.7526,0.7206,1.447,1.531,1.971,2.127,19.35
+Ridge Regression (L2),0.7494,0.0137,0.7526,0.7206,1.447,1.531,1.971,2.127,19.35
+XGBoost Regressor,0.7318,0.0164,0.8008,0.7155,1.312,1.534,1.769,2.147,19.4
+Gradient Boosting Regressor,0.7322,0.016,0.8034,0.7119,1.304,1.538,1.757,2.16,19.43
+Random Forest Regressor,0.7322,0.0178,0.8132,0.7059,1.258,1.573,1.713,2.183,19.91
+Decision Tree Regressor,0.714,0.0148,0.7401,0.693,1.498,1.605,2.02,2.23,20.88
+Baseline (Mean Predictor),-0.0022,0.0023,0.0,-0.0001,3.125,3.133,3.963,4.025,55.44

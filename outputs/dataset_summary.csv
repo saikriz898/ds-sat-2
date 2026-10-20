@@ -1,0 +1,6 @@
+Dataset,Grain,Rows,Columns,Primary Key,Foreign Keys
+orders.csv,Order Level,1000,4,order_id,None
+picks.csv,Pick Event Level,5396,8,pick_id,"order_id, worker_id, item_id, zone_id"
+items.csv,Item Master Level,120,4,item_id,None
+workers.csv,Worker Roster,40,3,worker_id,None
+zones.csv,Zone Master,6,3,zone_id,None

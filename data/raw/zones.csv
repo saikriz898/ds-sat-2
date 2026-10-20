@@ -1,0 +1,7 @@
+zone_id,zone_type,distance_band
+ZONE-A,Fast-Moving,Near
+ZONE-B,Standard Shelf,Near
+ZONE-C,Mezzanine,Mid
+ZONE-D,High-Rack,Mid
+ZONE-E,Cold Vault,Far
+ZONE-F,Bulk Storage,Deep-Storage

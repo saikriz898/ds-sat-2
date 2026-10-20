@@ -1,0 +1,7 @@
+Test,Method,Statistic,p_value,Significant (alpha=0.05)
+Zone Effect on Duration,One-Way ANOVA,1886.94,0.0,True
+Zone Effect on Duration,Kruskal-Wallis,3616.3,0.0,True
+Shift Effect on Duration,One-Way ANOVA,9.6,6.89372442964974e-05,True
+Worker Experience Effect,One-Way ANOVA,169.49,4.3170275267486326e-72,True
+Item Category Effect,One-Way ANOVA,473.61,0.0,True
+Item Count vs Elapsed Time,Pearson Correlation,0.97,0.0,True

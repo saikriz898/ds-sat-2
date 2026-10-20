@@ -1,0 +1,11 @@
+feature_name,feature_type,domain_interpretation,formula_or_derivation
+picking_duration_minutes,Continuous Numerical (Target),Duration in minutes between pick start and finish. Core warehouse labor efficiency metric.,(pick_finish_time - pick_start_time).total_seconds() / 60
+order_size_category,Ordinal Categorical,"Operational grouping of orders into Small (1-3), Medium (4-7), Large (8-12), Bulk (13+).",Rule-based binning on orders.item_count
+picking_pace_min_per_unit,Continuous Numerical,Time required to pick each individual unit of an item SKU (pace metric).,picking_duration_minutes / picking_quantity
+distance_score,Ordinal Numerical,"Rank of travel distance from shipping dispatch (Near: 1, Mid: 2, Far: 3, Deep-Storage: 4).",Mapped from zones.distance_band
+zone_difficulty_score,Ordinal Numerical,"Operational access hurdle (Fast-Moving: 1, Mezzanine: 3, High-Rack/Cold Vault/Bulk: 4).",Mapped from zones.zone_type
+experience_score,Ordinal Numerical,"Tenure tier of the warehouse associate (Novice: 1, Intermediate: 2, Senior: 3).",Mapped from workers.experience_band
+handling_complexity_score,Continuous Numerical,Composite physical handling friction index combining item dimensions and hazardous/cold/security storage rules.,item_size_score * 1.5 + storage_class_score
+pick_queue_time_minutes,Continuous Numerical,Latency in minutes between order placement/release and pick execution start.,(pick_start_time - order_timestamp).total_seconds() / 60
+order_priority_score,Ordinal Numerical,"SLA urgency tier (Low: 1, Medium: 2, High: 3, Urgent: 4).",Mapped from orders.order_priority
+pick_hour,Discrete Numerical,Hour of day (0-23) indicating diurnal shift progression and circadian fatigue factors.,pick_start_time.dt.hour

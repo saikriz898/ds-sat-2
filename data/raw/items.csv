@@ -1,0 +1,121 @@
+item_id,item_category,item_size,storage_class
+ITM-001,Groceries,Small,Ambient
+ITM-002,Apparel,Medium,Ambient
+ITM-003,Heavy Equipment,Bulky,Ambient
+ITM-004,Apparel,Small,Ambient
+ITM-005,Apparel,Small,Ambient
+ITM-006,Electronics,Small,Secure/High-Value
+ITM-007,Groceries,Small,Ambient
+ITM-008,Home Goods,Medium,Ambient
+ITM-009,Home Goods,Large,Ambient
+ITM-010,Apparel,Small,Ambient
+ITM-011,Pharmaceuticals,Small,Cold Storage
+ITM-012,Electronics,Medium,Secure/High-Value
+ITM-013,Home Goods,Large,Ambient
+ITM-014,Groceries,Large,Ambient
+ITM-015,Groceries,Large,Cold Storage
+ITM-016,Home Goods,Large,Ambient
+ITM-017,Heavy Equipment,Large,Ambient
+ITM-018,Apparel,Small,Ambient
+ITM-019,Apparel,Small,Ambient
+ITM-020,Apparel,Medium,Ambient
+ITM-021,Apparel,Small,Ambient
+ITM-022,Apparel,Small,Ambient
+ITM-023,Pharmaceuticals,Small,Secure/High-Value
+ITM-024,Electronics,Medium,Secure/High-Value
+ITM-025,Apparel,Medium,Ambient
+ITM-026,Groceries,Medium,Cold Storage
+ITM-027,Home Goods,Large,Ambient
+ITM-028,Apparel,Small,Ambient
+ITM-029,Apparel,Small,Ambient
+ITM-030,Apparel,Medium,Ambient
+ITM-031,Home Goods,Medium,Ambient
+ITM-032,Heavy Equipment,Bulky,Hazardous
+ITM-033,Groceries,Small,Ambient
+ITM-034,Groceries,Small,Ambient
+ITM-035,Home Goods,Medium,Ambient
+ITM-036,Apparel,Medium,Ambient
+ITM-037,Groceries,Small,Ambient
+ITM-038,Electronics,Medium,Ambient
+ITM-039,Apparel,Small,Ambient
+ITM-040,Apparel,Medium,Ambient
+ITM-041,Groceries,Large,Cold Storage
+ITM-042,Electronics,Medium,Ambient
+ITM-043,Groceries,Small,Cold Storage
+ITM-044,Electronics,Small,Secure/High-Value
+ITM-045,Pharmaceuticals,Medium,Cold Storage
+ITM-046,Groceries,Small,Cold Storage
+ITM-047,Home Goods,Medium,Ambient
+ITM-048,Groceries,Medium,Ambient
+ITM-049,Home Goods,Large,Ambient
+ITM-050,Home Goods,Large,Ambient
+ITM-051,Electronics,Small,Secure/High-Value
+ITM-052,Pharmaceuticals,Medium,Secure/High-Value
+ITM-053,Apparel,Small,Ambient
+ITM-054,Home Goods,Bulky,Ambient
+ITM-055,Electronics,Small,Secure/High-Value
+ITM-056,Home Goods,Large,Ambient
+ITM-057,Electronics,Small,Secure/High-Value
+ITM-058,Apparel,Medium,Ambient
+ITM-059,Apparel,Small,Ambient
+ITM-060,Groceries,Medium,Ambient
+ITM-061,Apparel,Medium,Ambient
+ITM-062,Groceries,Medium,Ambient
+ITM-063,Electronics,Small,Secure/High-Value
+ITM-064,Groceries,Small,Ambient
+ITM-065,Electronics,Medium,Secure/High-Value
+ITM-066,Pharmaceuticals,Medium,Cold Storage
+ITM-067,Apparel,Medium,Ambient
+ITM-068,Apparel,Small,Ambient
+ITM-069,Pharmaceuticals,Small,Cold Storage
+ITM-070,Home Goods,Large,Ambient
+ITM-071,Electronics,Small,Secure/High-Value
+ITM-072,Apparel,Small,Ambient
+ITM-073,Heavy Equipment,Bulky,Hazardous
+ITM-074,Electronics,Small,Secure/High-Value
+ITM-075,Home Goods,Medium,Ambient
+ITM-076,Electronics,Small,Secure/High-Value
+ITM-077,Apparel,Small,Ambient
+ITM-078,Pharmaceuticals,Small,Secure/High-Value
+ITM-079,Groceries,Small,Cold Storage
+ITM-080,Home Goods,Bulky,Ambient
+ITM-081,Pharmaceuticals,Medium,Cold Storage
+ITM-082,Groceries,Small,Ambient
+ITM-083,Electronics,Small,Ambient
+ITM-084,Apparel,Medium,Ambient
+ITM-085,Groceries,Medium,Cold Storage
+ITM-086,Pharmaceuticals,Small,Secure/High-Value
+ITM-087,Electronics,Small,Ambient
+ITM-088,Groceries,Medium,Cold Storage
+ITM-089,Electronics,Medium,Secure/High-Value
+ITM-090,Home Goods,Medium,Ambient
+ITM-091,Pharmaceuticals,Small,Cold Storage
+ITM-092,Groceries,Medium,Ambient
+ITM-093,Electronics,Medium,Secure/High-Value
+ITM-094,Groceries,Medium,Ambient
+ITM-095,Groceries,Medium,Cold Storage
+ITM-096,Apparel,Medium,Ambient
+ITM-097,Apparel,Small,Ambient
+ITM-098,Heavy Equipment,Large,Ambient
+ITM-099,Home Goods,Medium,Ambient
+ITM-100,Groceries,Large,Cold Storage
+ITM-101,Electronics,Small,Secure/High-Value
+ITM-102,Pharmaceuticals,Medium,Secure/High-Value
+ITM-103,Apparel,Small,Ambient
+ITM-104,Home Goods,Large,Ambient
+ITM-105,Groceries,Large,Cold Storage
+ITM-106,Electronics,Medium,Secure/High-Value
+ITM-107,Heavy Equipment,Bulky,Ambient
+ITM-108,Electronics,Small,Secure/High-Value
+ITM-109,Apparel,Medium,Ambient
+ITM-110,Heavy Equipment,Large,Ambient
+ITM-111,Apparel,Small,Ambient
+ITM-112,Pharmaceuticals,Medium,Cold Storage
+ITM-113,Apparel,Small,Ambient
+ITM-114,Electronics,Medium,Secure/High-Value
+ITM-115,Apparel,Medium,Ambient
+ITM-116,Groceries,Medium,Ambient
+ITM-117,Electronics,Medium,Ambient
+ITM-118,Groceries,Large,Ambient
+ITM-119,Electronics,Small,Secure/High-Value
+ITM-120,Home Goods,Large,Ambient

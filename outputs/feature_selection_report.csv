@@ -1,0 +1,26 @@
+Feature,Mutual_Info,RF_Importance_Pct,Lasso_Abs_Coef,Composite_Rank,Decision
+zone_difficulty_score,0.4969,43.4,0.7638,0.9877,Selected
+distance_score,0.5095,15.59,1.6724,0.6795,Selected
+handling_complexity_score,0.48,15.2,1.0712,0.6461,Selected
+item_size_score,0.2046,0.33,0.0,0.2044,Selected
+storage_class_score,0.198,0.62,0.0666,0.2013,Selected
+zone_type_Fast-Moving,0.1849,0.2,0.0,0.1836,Selected
+zone_type_Standard Shelf,0.145,0.18,0.0,0.1442,Excluded
+zone_type_High-Rack,0.1408,0.3,0.032,0.1415,Excluded
+experience_score,0.0605,6.73,0.9001,0.1368,Excluded
+zone_type_Mezzanine,0.0508,3.2,0.1259,0.0866,Excluded
+zone_type_Cold Vault,0.0769,0.07,0.0675,0.0761,Excluded
+storage_class_Secure/High-Value,0.0769,0.04,0.0,0.0757,Excluded
+picking_quantity,0.0187,4.81,0.5876,0.0736,Excluded
+storage_class_Cold Storage,0.0719,0.11,0.0,0.0717,Excluded
+item_count,0.0088,4.11,0.021,0.0559,Excluded
+item_category_Heavy Equipment,0.0514,0.19,0.0213,0.0525,Excluded
+order_priority_score,0.0217,1.78,0.0,0.0416,Excluded
+storage_class_Hazardous,0.0375,0.26,0.0552,0.0396,Excluded
+item_category_Pharmaceuticals,0.0278,0.17,0.0451,0.0291,Excluded
+item_category_Electronics,0.0245,0.2,0.0255,0.0262,Excluded
+item_category_Home Goods,0.0209,0.24,0.0,0.0232,Excluded
+shift_Night,0.0057,1.02,0.1736,0.0172,Excluded
+shift_Morning,0.0034,0.84,0.1445,0.0129,Excluded
+item_category_Groceries,0.0048,0.4,0.0234,0.0092,Excluded
+shift_Unknown,0.0,0.01,0.0134,0.0,Excluded

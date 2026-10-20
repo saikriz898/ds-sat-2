@@ -1,0 +1,7 @@
+dataset_name,column_name,missing_count,missing_pct,duplicate_count,validation_issue,cleaning_action
+orders,order_id,0,0.0,0,Primary Key Check,Retain - all unique
+picks,ALL (Row Level),0,0.0,18,Repeated Scanner Transmissions,Remove 18 duplicate rows
+picks,pick_finish_time,25,0.46,0,Unrecorded finish timestamp,Exclude from duration metrics; preserve for pick count audits
+picks,zone_id,0,0.0,0,Inconsistent zone casing/whitespace (35 records),Apply .str.strip().str.upper() normalization
+picks,pick_start_time / pick_finish_time,0,0.0,0,Inverted timestamps resulting in negative duration (5 records),Exclude invalid durations from duration analysis; flag as is_valid_duration=False
+picks,worker_id,12,0.22,0,Unassigned associate ID in scanner log,Label worker_id as 'Unassigned'; preserve record for facility zone analysis
